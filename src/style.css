@@ -1,0 +1,230 @@
+body {
+    background-color: #fff;
+}
+
+.contact_page {
+    background-color: #339966;
+}
+
+.contact_head {
+    margin-left: 100px;
+    padding: 40px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: -10px;
+    font-size: 25px;
+}
+
+h3 {
+    color: #339966;
+}
+
+h4 {
+    color: #fff;
+    padding-top: 15px;
+}
+
+p {
+    float: right;
+    color: #fff;
+    margin-top: 0px;
+    margin-right: 70px;
+}
+
+.contact {
+    margin-left: -100px;
+    margin-right: 450px;
+    margin-top: 50px;
+}
+
+.contact_info {
+    position: relative;
+    float: left;
+    width: 35%;
+    background-image: url("k.jpg");
+    margin-left: -90px;
+    margin-top: 10px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 5px 5px #339966;
+}
+
+.nested_coninfo {
+    margin-top: -21px;
+    content: "";
+    background-color: #339966;
+    padding-left: 40px;
+    /* position: absolute; */
+    /* width: 100%; */
+    height: 100%;
+    opacity: .9;
+}
+
+.row {
+    margin-top: 50px;
+    color: #ffff;
+}
+
+.icon {
+    padding-top: 30px;
+    color: #ffff;
+    padding-bottom: 50px;
+}
+
+.contact_form {
+    float: right;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 2px solid #339966;
+    margin-left: 300px;
+}
+
+.form_icon {
+    margin-left: 720px;
+    margin-top: -40px;
+    color: #339966;
+}
+
+.one {
+    margin-left: 470px;
+    margin-top: -30px;
+    color: #339966;
+}
+
+.input {
+    margin-top: 40px;
+    width: 230px;
+    height: 30px;
+    margin: 5px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: 2px solid black;
+}
+
+.input1 {
+    margin-top: -35px;
+    width: 230px;
+    height: 30px;
+    float: right;
+    margin-right: 70px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: 2px solid black;
+}
+
+.area {
+    width: 500px;
+    margin-left: 5px;
+    margin-top: 80px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: 2px solid black;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background-color: #339966;
+    margin-top: 30px;
+    box-shadow: 2px 2px 2px 2px #339966;
+}
+
+@media(max-width:700px) {
+    .contact_head {
+        margin-left: 10px;
+        padding: 40px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    p {
+        float: right;
+        color: #fff;
+        margin-top: 0px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .contact {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    .contact_info {
+        position: relative;
+        float: left;
+        width: 35%;
+        background-image: url("k.jpg");
+        margin-left: -90px;
+        margin-top: 10px;
+        margin-right: 50px;
+        box-shadow: 5px 5px 5px 5px #339966;
+    }
+    .nested_coninfo {
+        margin-top: -21px;
+        content: "";
+        background-color: #339966;
+        padding-left: 40px;
+        /* position: absolute; */
+        /* width: 100%; */
+        height: 100%;
+        opacity: .9;
+    }
+    .input {
+        margin-top: 40px;
+        width: 230px;
+        height: 30px;
+        margin: 5px;
+        border-left-style: none;
+        border-right-style: none;
+        border-top-style: none;
+        border-bottom-style: 2px solid black;
+    }
+    .input1 {
+        margin-right: 25px;
+        margin-top: 20px;
+        width: 230px;
+        height: 30px;
+        margin-left: 0px;
+        border-left-style: none;
+        border-right-style: none;
+        border-top-style: none;
+        border-bottom-style: 2px solid black;
+    }
+    .area {
+        width: 230px;
+        margin-left: 5px;
+        margin-top: 30px;
+        border-left-style: none;
+        border-right-style: none;
+        border-top-style: none;
+        border-bottom-style: 2px solid black;
+    }
+    .one {
+        margin-left: 300px;
+        margin-top: -30px;
+        color: #339966;
+    }
+    .btn {
+        width: 150px;
+        height: 30px;
+        margin-left: 5px;
+        border-radius: 8px;
+        background-color: #339966;
+        margin-top: 0px;
+        box-shadow: 2px 2px 2px 2px #339966;
+    }
+    .form_icon {
+        margin-left: 300px;
+        margin-top: -40px;
+        color: #339966;
+    }
+}
